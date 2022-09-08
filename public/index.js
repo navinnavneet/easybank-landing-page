@@ -9,7 +9,7 @@ let mockUpImage = document.querySelector(".mockup-image");
 document.querySelectorAll(".mobile-menu-toggle").forEach((el) =>
   el.addEventListener("click", () => {
     let modalDisplay = modal.style.display;
-    console.log("clicked", modalDisplay);
+    // console.log("clicked", modalDisplay);
     if (modalDisplay === "block") {
       hideModal();
     } else {

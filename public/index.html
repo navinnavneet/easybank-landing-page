@@ -23,7 +23,7 @@
     <div class="container">
       <header class="header">
         <div class="logo">
-          <img src="./images/logo.svg" alt="easybank logo" />
+          <a href="#"><img src="./images/logo.svg" alt="easybank logo" /></a>
         </div>
         <nav class="navbar">
           <ul class="header-links">
@@ -54,11 +54,13 @@
         </nav>
       </div>
       <main class="main">
+        <div class="bg-desktop"></div>
         <img
           src="./images/image-mockups.png"
           alt="mock up image"
           class="mockup-image"
         />
+
         <section class="main-text">
           <h1>Next generation digital banking</h1>
           <p>
@@ -123,7 +125,6 @@
             </p>
           </div>
         </div>
-
         <div class="article">
           <img src="./images/image-restaurant.jpg" alt="restaurant" />
           <div class="article-text">
@@ -160,27 +161,48 @@
         </div>
       </section>
       <footer class="footer">
-        <img src="./images/logo.svg" alt="logo" />
-        <div class="social-icons">
-          <img src="./images/icon-facebook.svg" alt="facebook icon" />
-          <img src="./images/icon-youtube.svg" alt="youtube icon" />
-          <img src="./images/icon-twitter.svg" alt="twitter icon" />
-          <img src="./images/icon-pinterest.svg" alt="pinterest icon" />
-          <img src="./images/icon-instagram.svg" alt="instagram icon" />
+        <div class="footer-left">
+          <a href="#"
+            ><img src="./images/logo.svg" alt="logo" class="footer-logo"
+          /></a>
+
+          <div class="social-icons">
+            <a href="#"
+              ><img src="./images/icon-facebook.svg" alt="facebook icon"
+            /></a>
+            <a href="#"
+              ><img src="./images/icon-youtube.svg" alt="youtube icon"
+            /></a>
+            <a href="#"
+              ><img src="./images/icon-twitter.svg" alt="twitter icon"
+            /></a>
+            <a href="#"
+              ><img src="./images/icon-pinterest.svg" alt="pinterest icon"
+            /></a>
+            <a href="#"
+              ><img src="./images/icon-instagram.svg" alt="instagram icon"
+            /></a>
+          </div>
         </div>
         <nav class="footer-nav">
           <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <div class="footer-nav-left">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Blog</a></li>
+            </div>
+            <div class="footer-nav-right">
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </div>
           </ul>
         </nav>
-        <button class="button">Request Invite</button>
-        <p class="copyright">© Easybank. All Rights Reserved</p>
-        <div class="attribution">Coded by <a href="#">Navin Navneet</a>.</div>
+        <div class="footer-right">
+          <button class="button">Request Invite</button>
+          <p class="copyright">© Easybank. All Rights Reserved</p>
+          <div class="attribution">Coded by <a href="#">Navin Navneet</a>.</div>
+        </div>
       </footer>
     </div>
     <script src="./index.js"></script>
